@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Spring.org:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring_org_jar</output-path>
+    <root id="archive" name="Spring.org.jar">
+      <element id="module-output" name="Spring.org" />
+    </root>
+  </artifact>
+</component>
