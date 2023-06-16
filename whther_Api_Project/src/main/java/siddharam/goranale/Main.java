@@ -14,7 +14,7 @@ import java.net.URL;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) throws Exception {
-        String urlString = "https://api.chucknorris.io/jokes/random";
+        String urlString = "https://api.zippopotam.us/us/33162";
         URL url = null;
         HttpURLConnection connection = null;
         int responce_code = 0;
@@ -45,10 +45,10 @@ public class Main {
             JSONObject jsonObject = new JSONObject(apiData.toString());
             System.out.println("_________________________________");
             System.out.println();
-            System.out.println("created_at : "+jsonObject.get("created_at"));
-            System.out.println("value : "+jsonObject.get("value"));
-            System.out.println("url : "+jsonObject.get("url"));
-            System.out.println("icon_url : "+jsonObject.get("icon_url"));
+            System.out.println("country : "+jsonObject.get("country"));
+            System.out.println("places : "+jsonObject.get("places").toString());
+           System.out.println("country abbreviation : "+jsonObject.get("country abbreviation"));
+            System.out.println("post code : "+jsonObject.get("post code"));
 
             System.out.println("_________________________________");
             System.out.println();
