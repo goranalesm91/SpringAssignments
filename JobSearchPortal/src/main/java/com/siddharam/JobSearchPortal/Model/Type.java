@@ -4,5 +4,5 @@ public enum Type {
     IT,
     HR,
     Sales,
-    Marketing;
+    Marketing
 }
